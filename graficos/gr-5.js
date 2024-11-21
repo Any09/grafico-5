@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Sobrenomes mais comuns no Brasil de acordo com pesquisas(IBGE).',
+            text: 'Religiões mais comuns no Brasil de acordo com nossas pesquisas.',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`No Brasil os <span>cães</span> são considerados os pets mais comuns.`)
+    incluirTexto(`O <span>Catolicismo romano</span> é a religião mais comum no Brasil .`)
 }
 
 redesSociaisFavoritasMinhaEscola()

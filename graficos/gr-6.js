@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Sobrenomes mais comuns no Brasil de acordo com pesquisas(IBGE).',
+            text: 'Empregos mais comuns exercidos no Brasil.',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`No Brasil os <span>cães</span> são considerados os pets mais comuns.`)
+    incluirTexto(`No Brasil o serviço mais comum é <span>vendedor</span>.`)
 }
 
 redesSociaisFavoritasMinhaEscola()
