@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Sobrenomes mais comuns no Brasil de acordo com pesquisas(IBGE).',
+            text: 'Pets mais comuns no Brasil de acordo com pesquisas.',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
